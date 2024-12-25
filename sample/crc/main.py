@@ -1,4 +1,9 @@
-from inc.crc import *
+import sys
+import os
+
+sys.path.append(os.path.abspath("../../utils"))
+
+from crc import *
 
 def main():
     # Define the data
